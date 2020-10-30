@@ -38,7 +38,6 @@ Pokedoke uses the [PokeAPI](https://pokeapi.co/)
 
 ```kotlin
 //kotlin libs
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9'
 
 
