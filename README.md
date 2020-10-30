@@ -34,3 +34,21 @@ Pokedoke uses the [PokeAPI](https://pokeapi.co/)
 4. Push your branch (git push origin my-new-feature)
 5. Create a new Pull Request
 
+# Libraries
+
+```kotlin
+//kotlin libs
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9'
+
+
+    //retrofit for network calls
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+
+
+    // Glide
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    implementation 'com.github.florent37:glidepalette:2.1.2'
+```
+
